@@ -1,0 +1,51 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    background-image: url(assets/background.jpg);
+    font-family: sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyBoard{
+    display: flex;
+    gap: 1rem;
+}
+
+.key{
+    width: 10rem;
+    padding: 1rem .5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: .4rem solid black;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: .5rem;
+    text-shadow: 0 0 .5rem black;
+    transition: all /07s ease;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd{
+    color: white;
+    font-size: 4rem;
+}
+
+span{
+    color: #ffc600;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
