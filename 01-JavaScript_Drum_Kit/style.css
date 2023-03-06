@@ -29,7 +29,7 @@ body{
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: .5rem;
     text-shadow: 0 0 .5rem black;
-    transition: all /07s ease;
+    transition: all .07s ease;
 }
 
 .playing{
