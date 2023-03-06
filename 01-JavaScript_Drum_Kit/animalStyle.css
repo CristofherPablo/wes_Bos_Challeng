@@ -1,0 +1,56 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(123, 224, 168);
+  background: linear-gradient(
+    179deg,
+    rgba(123, 224, 168, 1) 0%,
+    rgba(104, 204, 67, 1) 100%
+  );
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+}
+
+.key {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 11rem;
+  height: 10rem;
+  padding: 0.5rem 1rem;
+  transition: all .07s ease;
+}
+
+#chicks {
+  background-image: url(assets/chicks.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+kbd {
+  font-size: 2rem;
+}
+
+.sound {
+  font-size: 1rem;
+  padding-top: 0.8rem;
+}
+
+.playing{
+    transform: scale(1.1);
+    border: .5rem solid greenyellow;
+    box-shadow: 0 0 .5rem greenyellow;
+}
